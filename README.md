@@ -2,6 +2,8 @@
 
 A public RFC for how multiple humans and AI agents can share project context without dumping full private chat logs.
 
+Languages: [English](README.md) | [简体中文](README.zh-CN.md)
+
 ## The Problem
 
 AI-native work is becoming more fragmented.
@@ -84,13 +86,9 @@ The goal is narrower: define a simple shared state layer for multi-agent collabo
 - What evidence should be required before a claim enters shared state?
 - Can this be implemented as a GitHub app, local workspace file, browser extension, or Slack bot?
 
-## Chinese Summary
+## Chinese Version
 
-这个项目讨论的是：多人分别和自己的 AI Agent 深度交流后，如何避免只靠 Markdown 总结或完整聊天记录来同步上下文。
-
-核心想法是：每个 Agent 保留自己的私有对话，但向公共项目空间发布结构化状态卡，例如事实、假设、决策、问题、风险、阻塞和产出。人类可以确认、驳回、合并或标记过期。
-
-它不是一个完整产品，而是一个开放 RFC，希望帮助大家讨论多 Agent 协作时真正需要共享的最小上下文层。
+See [README.zh-CN.md](README.zh-CN.md).
 
 ## License
 
